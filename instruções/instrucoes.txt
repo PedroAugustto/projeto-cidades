@@ -1,0 +1,15 @@
+1) Escolha uma cidade entre:
+- Atlantis
+- Gotham City
+- Honolulu
+- Johannesburgo
+- Moscou
+- Nova York
+- Rio de Janeiro
+- Sydney
+- Tokyo
+- Wakanda
+
+2) Desenvolva uma página em HTML sobre a cidade escolhida. O layout de exemplo encontra-se na pasta "layout";
+
+3) As imagens principais das cidades e o ícone para a página estão na pasta "imagens"
