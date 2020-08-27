@@ -1,13 +1,13 @@
-1) Escolha uma cidade entre:
+﻿1) Escolha uma cidade entre:
 - Atlantis
-- Gotham City
+- Gotham City - Pedro(Feito)
 - Honolulu
 - Johannesburgo
 - Moscou
-- Nova York
+- Nova York - Paulo
 - Rio de Janeiro
 - Sydney
-- Tokyo
+- Tokyo - Pedro
 - Wakanda
 
 2) Desenvolva uma página em HTML sobre a cidade escolhida. O layout de exemplo encontra-se na pasta "layout";
