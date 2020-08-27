@@ -7,7 +7,7 @@
 - Nova York - Paulo
 - Rio de Janeiro
 - Sydney
-- Tokyo - Pedro
+- Tokyo - Pedro(Feito)
 - Wakanda
 
 2) Desenvolva uma página em HTML sobre a cidade escolhida. O layout de exemplo encontra-se na pasta "layout";
