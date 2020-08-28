@@ -1,31 +1,54 @@
-body {
-    background-color: black
-}
+/* Reset */
+* {margin: 0; padding: 0;font-family: 'Open Sans', sans-serif;}
 
-h1 {
-    color: #d85802;
-}
+/* Definindo a fonte para os elementos */
+/* body {font-family: 'Open Sans', sans-serif;} */
 
-h2 {
-    color: #d85802;
-}
+/* Centralizar o conteúdo */
+.container {max-width:1180px; margin:0 auto;}
 
-p {
-    color: #d8c302;
-}
+/* Topo da pagina e logotipo*/
+.topo {width:100%; height: 70px; background: #fff;}
+.logo {margin-top:10px;float:left;}
 
-table {
-    color: #d8c302;
-}
+/* Menu */
+.menu {float: right; margin-top: 23px}
+.menu ul li {list-style: none; display: inline; margin:0 5px; font-size: 18px}
+.menu ul li a {text-decoration:none; color: #333}
+.menu ul li a:hover {text-decoration: underline; color:orange}
 
-ul {
-    color: #d8c302;
-}
+/* Título */
+.pagina-titulo {width: 100%; background-color: orange;}
+.pagina-titulo h1 {padding:15px; color: #fff; font-size:50px; text-align: center; text-transform: uppercase;}
 
-ol {
-    color: #d8c302;
-}
+/* Subtítulos */
+.titulo-modulo h2 {font-size:38px; text-transform: uppercase; color:#333; text-align:center;}
 
-a {
-    color: #d85802
-}
+
+/* Módulo "Sobre a cidade" */
+.pagina-descricao {width:100%; padding:60px 0;background-color:#f3f3f3; background-image:url(../imagens/icone-marca-dagua.png); background-repeat: no-repeat; background-position: bottom right};
+.pagina-descricao {margin-top:30px; font-size:18px;}
+
+/*Módulo da tabela */
+.pagina-tabela {width:100%; padding:60px 0;  background-color:#fff}
+.pagina-tabela table {width:450px;border-collapse: collapse;margin:20px auto 0}
+.pagina-tabela table tr, .pagina-tabela table td {border:1px solid #aaa; padding: 10px}
+.pagina-tabela table thead{background-color: #777; color: #fff}
+.pagina-tabela table thead th {padding:10px}
+
+/*Módulo da lista*/
+.pagina-lista {width:100%;padding:60px 0; background-color: #fff;}
+.pagina-lista ul,.pagina-lista ol {margin-top:30px; text-align:center}
+.pagina-lista ul li, .pagina-lista ol li {padding:10px; background-color: orange; display: inline;color:#fff;}
+
+/*Módulo do rodapé*/
+.rodape {width:100%;padding: 60px 0;background-color: #333;border-top: 5px solid orange; background-image: url("../imagens/padrao-fundo-rodape.png");}
+.logo-rodape {text-align: center;}
+.assinatura {color:#fff;text-align: center; margin-top: 30px;padding: 20px;}
+
+/*Módulo do mapa*/
+.pagina-mapa {width: 100%; padding: 20px 0;background-color: #fff;}
+.imagem-mapa {text-align: center; margin-top:30px ;}
+
+/*Módulo Lista pessoas*/
+.pagina-lista {text-align: center;}
