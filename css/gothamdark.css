@@ -1,0 +1,63 @@
+/* Reset */
+* {margin: 0; padding: 0;font-family: 'Open Sans', sans-serif;}
+
+/* Definindo a fonte para os elementos */
+/* body {font-family: 'Open Sans', sans-serif;} */
+
+/* Select */
+::selection {color:#000; background: orange}
+
+/* Centralizar o conteúdo */
+.container {max-width:1180px; margin:0 auto;}
+
+/* Topo da pagina e logotipo*/
+.topo {width:100%; height: 70px; background: #000;}
+.logo a img{margin-top:10px;float:left;width:149px; height: 46px}
+
+/* Menu */
+.menu {float: right; margin-top: 23px}
+.menu ul li {list-style: none; display: inline; margin:0 5px; font-size: 18px}
+.menu ul li a {text-decoration:none; color: #fff}
+.menu ul li a:hover {text-decoration: underline; color:orange}
+
+/* Título */
+.pagina-titulo {width: 100%; background-color: orange;}
+.pagina-titulo h1 {padding:15px; color: #000; font-size:50px; text-align: center; text-transform: uppercase;}
+
+/*Imagem da Cidade*/
+
+
+/* Subtítulos */
+.titulo-modulo h2 {font-size:38px; text-transform: uppercase; color:orange; text-align:center;}
+.titulo-modulo-mapa h2 {font-size:38px; text-transform: uppercase; color:orange; text-align:center;background-color: #000;}
+
+
+/* Módulo "Sobre a cidade" */
+.pagina-descricao {width:100%; padding:60px 0;background-color:#000006; /*background-image:url(../imagens/icone-marca-dagua.png)*/ ; background-repeat: no-repeat; background-position: bottom right; color:#fff;}
+.pagina-descricao {font-size:16px;}
+
+/*Módulo da tabela */
+.pagina-tabela {width:100%; padding:60px 0;  background-color:#000}
+.pagina-tabela table {width:450px;border-collapse: collapse;margin:20px auto 0}
+.pagina-tabela table tr {border:1px solid #333; padding: 10px;}
+.pagina-tabela table td {border:1px solid #333; padding: 10px; color:#fff}
+.pagina-tabela table thead{background-color: orange; color: 000}
+.pagina-tabela table thead th {padding:10px}
+
+/*Módulo da lista*/
+.pagina-lista {width:100%;padding:60px 0; background-color: #000006;}
+.pagina-lista ul,.pagina-lista ol {margin-top:30px;text-align:center}
+.pagina-lista ul li, .pagina-lista ol li {padding:10px; background-color: orange; display: inline;color:white;}
+
+/*Módulo do rodapé*/
+.rodape {width:100%;padding: 60px 0;background-color: #fff;border-top: 5px solid orange; background-image: url("../imagens/padrao-fundo-rodape.png");}
+.logo-rodape {text-align: center;}
+.logo-rodape img{width:220px; height:69px}
+.assinatura {color:#333;text-align: center; margin-top: 30px;padding: 20px;}
+
+/*Módulo do mapa*/
+.pagina-mapa {width: 100%; padding: 20px 0; background-color: #000;}
+.imagem-mapa {text-align: center; border-top:30px solid #000;background-color: #000;}
+
+/*Módulo Lista pessoas*/
+.pagina-lista {text-align: center;}

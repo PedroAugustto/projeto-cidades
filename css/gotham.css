@@ -4,6 +4,37 @@
 /* Definindo a fonte para os elementos */
 /* body {font-family: 'Open Sans', sans-serif;} */
 
+<<<<<<< HEAD
+/* Select */
+::selection {color:#fff; background: orange}
+
+/* Centralizar o conteúdo */
+.container {max-width:1180px; margin:0 auto;}
+
+/* Topo da pagina e logotipo*/
+.topo {width:100%; height: 70px; background: #fff;}
+.logo {margin-top:10px;float:left;}
+
+/* Menu */
+.menu {float: right; margin-top: 23px}
+.menu ul li {list-style: none; display: inline; margin:0 5px; font-size: 18px}
+.menu ul li a {text-decoration:none; color: #333}
+.menu ul li a:hover {text-decoration: underline; color:orange}
+
+/* Título */
+.pagina-titulo {width: 100%; background-color: orange;}
+.pagina-titulo h1 {padding:15px; color: #fff; font-size:50px; text-align: center; text-transform: uppercase;}
+
+/* Imagem Principal */
+.imagem-principal img{width:"100%"}
+
+/* Subtítulos */
+.titulo-modulo h2 {font-size:38px; text-transform: uppercase; color:#333; text-align:center;}
+
+
+/* Módulo "Sobre a cidade" */
+/* .pagina-descricao {width:100%; padding:60px 0;background-color: green; background-image:url(../imagens/icone-marca-dagua.png); background-repeat: no-repeat; background-position: bottom right}; */
+=======
 /* Centralizar o conteúdo */
 .container {max-width:1180px; margin:0 auto;}
 
@@ -26,20 +57,30 @@
 
 
 /* Módulo "Sobre a cidade" */
+>>>>>>> 62b7944c12dfb3c50a909a247d77d628a5cf900a
 .pagina-descricao {width:100%; padding:60px 0;background-color:#f3f3f3; background-image:url(../imagens/icone-marca-dagua.png); background-repeat: no-repeat; background-position: bottom right};
 .pagina-descricao {margin-top:30px; font-size:18px;}
 
 /*Módulo da tabela */
 .pagina-tabela {width:100%; padding:60px 0;  background-color:#fff}
 .pagina-tabela table {width:450px;border-collapse: collapse;margin:20px auto 0}
+<<<<<<< HEAD
+.pagina-tabela table tr .pagina-tabela table td {border:1px solid #aaa; padding: 10px}
+=======
 .pagina-tabela table tr, .pagina-tabela table td {border:1px solid #aaa; padding: 10px}
+>>>>>>> 62b7944c12dfb3c50a909a247d77d628a5cf900a
 .pagina-tabela table thead{background-color: #777; color: #fff}
 .pagina-tabela table thead th {padding:10px}
 
 /*Módulo da lista*/
 .pagina-lista {width:100%;padding:60px 0; background-color: #fff;}
+<<<<<<< HEAD
+.pagina-lista ul {margin-top:30px; text-align:center}
+.pagina-lista ul li{padding:10px; background-color: orange; display: inline;color:#fff;}
+=======
 .pagina-lista ul,.pagina-lista ol {margin-top:30px; text-align:center}
 .pagina-lista ul li, .pagina-lista ol li {padding:10px; background-color: orange; display: inline;color:#fff;}
+>>>>>>> 62b7944c12dfb3c50a909a247d77d628a5cf900a
 
 /*Módulo do rodapé*/
 .rodape {width:100%;padding: 60px 0;background-color: #333;border-top: 5px solid orange; background-image: url("../imagens/padrao-fundo-rodape.png");}
@@ -51,4 +92,15 @@
 .imagem-mapa {text-align: center; margin-top:30px ;}
 
 /*Módulo Lista pessoas*/
+<<<<<<< HEAD
+/* .pagina-lista {text-align: center; */
+
+/* sugestao */
+.pagina-contato-subtitulo {margin:30px 0;text-align: center;}
+
+/*formulário*/
+.form-container {width: 100%;padding: 5px;}
+.form-container label {}
+=======
 .pagina-lista {text-align: center;}
+>>>>>>> 62b7944c12dfb3c50a909a247d77d628a5cf900a
